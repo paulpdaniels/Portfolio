@@ -1,0 +1,14 @@
+/*
+* Header Art
+*/
+
+div.headerArtImg.col-md-12 {
+  background: url("/images/tuolumne.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  height: 25vw;
+  top: 1vw;
+  margin-top: 5px;
+}
