@@ -1,3 +1,35 @@
+/*
+* Footer Title
+*/
+
+.footer-text {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: #434343;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+.copyrights {
+  margin-top: 8vw;
+  margin-bottom: 1vw;
+  margin-left: -60px;
+}
+
+
+
+/*
+* Social Icons
+*/
+
+.social-links {
+  padding-top: 3vw;
+}
+
 /* footer social icons */
 ul.social-network {
     list-style: none;

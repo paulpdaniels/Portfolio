@@ -7,17 +7,19 @@ class LandingFooter extends Component {
   render() {
     return (
       <Grid fluid>
-      <div className="about-text">
-         <h1>Contact me for more information</h1>
+      <div className="footer-text">
+         <h1 className="footer-title">Contact me for more information</h1>
 
         <div className="social-links">
           <ul className="social-network social-circle">
-                     <li><a href="#" className="icoGithub" title="Github"><i className="fa fa-github"></i></a></li>
-                     <li><a href="#" className="icoLinkedin" title="Linkedin"><i className="fa fa-linkedin"></i></a></li>
+                     <li><a href="https://github.com/dionnephualiann" target="_blank" className="icoGithub" title="Github"><i className="fa fa-github"></i></a></li>
+                     <li><a href="https://www.linkedin.com/in/dionne-phua-96b7a01b/" target="_blank" className="icoLinkedin" title="Linkedin"><i className="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
 
         <div className="Resume"></div>
+
+        <div className="copyrights pull-left">©Dionne Phua. All rights Reserved.</div>
       </div>
       </Grid>
     );

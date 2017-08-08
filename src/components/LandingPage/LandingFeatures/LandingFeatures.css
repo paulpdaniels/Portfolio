@@ -2,7 +2,7 @@
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;*/
   height: 30vh;
   width: 100vw;
 }
@@ -35,17 +35,48 @@
   box-shadow: inset 0 0 0 100vmax rgba(175, 0, 100, 0.7);
 }
 .c-hero-flex__item:nth-child(1) {
-  background: #222 url(https://images.unsplash.com/photo-1417577097439-425fb7dec05e?dpr=1&auto=format&crop=entropy&fit=crop&w=1000&h=1000&q=80&cs=tinysrgb) no-repeat center center;
+  background: #222 url("/images/Project01.png") no-repeat;
+  background-size: 100%;
+  background-position-y: 10%;
 }
 .c-hero-flex__item:nth-child(2) {
-  background: #222 url(https://images.unsplash.com/photo-1424460421773-58b49adfc68a?dpr=1&auto=format&crop=entropy&fit=crop&w=1000&h=1000&q=80&cs=tinysrgb) no-repeat center center;
+  background: #222 url("/images/summon-auntie.png") no-repeat;
+  background-size: 120%;
+  background-position-y: 10%;
+  background-position-x: 40%
 }
 .c-hero-flex__item:nth-child(3) {
-  background: #222 url(https://images.unsplash.com/photo-1442876906995-6761040d1f0b?dpr=1&auto=format&crop=entropy&fit=crop&w=1000&h=1000&q=80&cs=tinysrgb) no-repeat center center;
+  background: #222 url("/images/mentormatch.png") no-repeat;
+  background-size: 100%;
+  background-position-y: 50%;
+  background-position-x: 50%
 }
+
+.c-hero-flex__item:nth-child(4) {
+  background: #222 url("/images/expressive.png") no-repeat;
+  background-size: 200%;
+  background-position-y: 20%;
+  background-position-x: 50%
+}
+
+.c-hero-flex__item:nth-child(5) {
+  background: #222 url("/images/Sloth.png") no-repeat;
+  background-size: 120%;
+  background-position-y: 20%;
+  background-position-x: 40%
+}
+
 .c-hero-flex__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .075em;
   color: #fff;
   transition: .2s all;
+  display: inline-block;
+}
+
+.c-hero-flex__text {
+
+  width: 10vw;
 }

@@ -1,7 +1,16 @@
-.about-text {
-  margin-top: 10vw;
+.about-section {
+  /*margin-top: 10vw;*/
   margin-bottom: 10vw;
   margin-left: 10vw;
   margin-right: 10vw;
   color: #434343;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.about-title {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  padding-top: 30px;
 }
