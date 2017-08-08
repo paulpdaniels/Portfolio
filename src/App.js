@@ -3,6 +3,7 @@ import {Grid} from 'react-bootstrap';
 
 import {HashRouter, Link} from 'react-router-dom';
 import Main from './Routes';
+
 import './App.css';
 
 class App extends Component {
@@ -10,10 +11,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-
+        {/* side nav bar */}
         <div className="area"></div>
           <nav className="main-menu">
-          <h1 className="nav-title">Dionne Phua</h1>
+
           <ul>
               <li>
                   <a href="#">
@@ -57,6 +58,14 @@ class App extends Component {
                       <i className="fa fa-hand-paper-o fa-2x" aria-hidden="true"></i>
                       <span className="nav-text">
                           Project 4
+                      </span>
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                      <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
+                      <span className="nav-text">
+                          Art Portfolio
                       </span>
                   </a>
               </li>

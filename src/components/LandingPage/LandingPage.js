@@ -4,6 +4,7 @@ import { Row, Grid } from 'react-bootstrap';
 import LandingHeader from './LandingHeader/LandingHeader';
 import LandingFeatures from './LandingFeatures/LandingFeatures';
 import LandingAbout from './LandingAbout/LandingAbout';
+import LandingFooter from './LandingFooter/LandingFooter';
 
 class LandingPage extends Component {
   constructor(props) {
@@ -16,11 +17,14 @@ class LandingPage extends Component {
         <Row className="LHeading">
           <LandingHeader />
         </Row>
+        <Row className="LAbout">
+          <LandingAbout />
+        </Row>
         <Row className="LFeatures">
           <LandingFeatures />
         </Row>
-        <Row className="LAbout">
-          <LandingAbout />
+        <Row className="LFooter">
+          <LandingFooter />
         </Row>
       </Grid>
     );

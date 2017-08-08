@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #e7e7e7;
+  /*background-color: #e7e7e7;*/
 }
 
 .App-logo {
@@ -9,10 +9,10 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  /*background-color: #222;*/
+  /*height: 150px;*/
+  /*padding: 20px;*/
+  /*color: white;*/
 }
 
 .App-intro {
@@ -28,10 +28,7 @@
 *  Nav Bar
 */
 
-.nav-title{
-  color: #999;
-  font-family: 'Buda';
-}
+
 
 .fa-2x {
 font-size: 2em;
@@ -55,14 +52,15 @@ background-color: rgba(255,255,255,0.8);
 }
 
 .main-menu {
-background: rgba(255,255,255,0.8);
+  padding-top: 40px;
+background: rgba(255,255,255,1);
 border-right:1px solid #e5e5e5;
 position:absolute;
 top:0;
 bottom:0;
 height:100%;
 left:0;
-width: 120px;
+width: 60px;
 overflow:hidden;
 -webkit-transition:width .05s linear;
 transition:width .05s linear;
@@ -80,7 +78,7 @@ display:block;
 width:250px;
 }
 
-.main-menu li>a {
+.main-menu li > a {
 position:relative;
 display:table;
 border-collapse:collapse;
@@ -113,11 +111,6 @@ width:190px;
   font-family: 'Titillium Web', sans-serif;
 }
 
-.main-menu>ul.logout {
-position:absolute;
-left:0;
-bottom:0;
-}
 
 .no-touch .scrollable.hover {
 overflow-y:hidden;
@@ -128,8 +121,16 @@ overflow-y:auto;
 overflow:visible;
 }
 
-a:hover,a:focus {
+a, a:hover,a:focus {
 text-decoration:none;
+}
+
+a {
+  color: #999;
+}
+
+a:hover {
+  color: #fff;
 }
 
 nav {
@@ -140,14 +141,15 @@ nav {
 user-select:none;
 }
 
-nav ul,nav li {
+nav ul, nav li {
 outline:0;
 margin:0;
 padding:0;
 }
-.main-menu li:hover>a,nav.main-menu li.active>a, .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus, .no-touch .dashboard-page nav.dashboard-menu ul li:hover a, .dashboard-page nav.dashboard-menu ul li.active a {
+.main-menu li:hover>a, nav.main-menu li.active>a, .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus, .no-touch .dashboard-page nav.dashboard-menu ul li:hover a, .dashboard-page nav.dashboard-menu ul li:active a {
 color:#fff;
 background-color:#5fa2db;
+text-decoration:none;
 }
 .area {
 float: left;
@@ -159,5 +161,4 @@ height: 100%;
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 300;
-  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
 }
