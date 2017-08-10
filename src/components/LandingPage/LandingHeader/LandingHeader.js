@@ -14,7 +14,7 @@ class LandingHeader extends Component {
              <div className="header-title">Dionne Phua</div>
              <p className="subheader-text">Web Developer | Concept Artist</p>
              <a href="#about" className="btn btn-primary btn-xl page-scroll" >
-             scroll down</a>
+             Find Out More!</a>
            </Col>
            </Col>
       </div>

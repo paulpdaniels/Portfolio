@@ -2,6 +2,12 @@
 * Footer Title
 */
 
+.footer-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+
 .footer-text {
     margin-top: 10vw;
     margin-bottom: 10vw;
@@ -20,6 +26,19 @@
   margin-left: -60px;
 }
 
+/*
+* Resume
+*/
+
+.download-resume {
+  margin-top: 5vw;
+  height: 4vw;
+  width: 20vw;
+}
+
+.icoResume {
+  padding-left: 8px;
+}
 
 
 /*
@@ -49,7 +68,12 @@ ul.social-network li {
 .social-network a.icoLinkedin:hover {
 	background-color:#007bb7;
 }
- .social-network a.icoGithub:hover i, .social-network a.icoLinkedin:hover i {
+
+.social-network a.icoEmail:hover {
+	background-color:#ff6600;
+}
+
+ .social-network a.icoGithub:hover i, .social-network a.icoLinkedin:hover i, .social-network a.icoEmail:hover i {
 	color:#fff;
 }
 a.socialIcon:hover, .socialHoverClass {
@@ -94,6 +118,6 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.8s;
 }
 
-a.icoGithub, a.icoLinkedin {
+a.icoGithub, a.icoLinkedin, a.icoEmail {
  background-color: #D3D3D3;
 }

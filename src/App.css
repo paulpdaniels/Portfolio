@@ -33,11 +33,11 @@
 .fa-2x {
 font-size: 2em;
 }
-.fa {
+.nav-fa {
 position: relative;
 display: table-cell;
 width: 60px;
-height: 36px;
+height: 40px;
 text-align: center;
 vertical-align: middle;
 font-size:20px;
@@ -47,20 +47,30 @@ font-size:20px;
 .main-menu:hover,nav.main-menu.expanded {
 width:250px;
 overflow:visible;
-background-color: rgba(255,255,255,0.8);
+background-color: rgba(255,255,255,0.7);
 
 }
 
 .main-menu {
   padding-top: 40px;
-background: rgba(255,255,255,1);
-border-right:1px solid #e5e5e5;
+background: rgba(255,255,255,0);
+border-right-width: 2px;
+border-right-style: solid;
+border-right-image: linear-gradient(to bottom, #e5e5e5, rgba(0,0,0,0));
+-webkit-border-image:
+      -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image:
+      -webkit-linear-gradient(#e5e5e5, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(#e5e5e5, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image:
+      -o-linear-gradient(#e5e5e5, rgba(0, 0, 0, 0)) 1 100%;
 position:absolute;
 top:0;
 bottom:0;
-height:100%;
-left:0;
-width: 60px;
+height:49vw;
+left:1vw;
+width: 70px;
 overflow:hidden;
 -webkit-transition:width .05s linear;
 transition:width .05s linear;
@@ -78,7 +88,7 @@ display:block;
 width:250px;
 }
 
-.main-menu li > a {
+.main-menu li > .nav-a {
 position:relative;
 display:table;
 border-collapse:collapse;
@@ -121,15 +131,15 @@ overflow-y:auto;
 overflow:visible;
 }
 
-a, a:hover,a:focus {
+.nav-a, .nav-a:hover,.nav-a:focus {
 text-decoration:none;
 }
 
-a {
+.nav-a {
   color: #999;
 }
 
-a:hover {
+.nav-a:hover {
   color: #fff;
 }
 
@@ -146,7 +156,7 @@ outline:0;
 margin:0;
 padding:0;
 }
-.main-menu li:hover>a, nav.main-menu li.active>a, .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus, .no-touch .dashboard-page nav.dashboard-menu ul li:hover a, .dashboard-page nav.dashboard-menu ul li:active a {
+.main-menu li:hover>.nav-a, nav.main-menu li.active>.nav-a, .dropdown-menu>li>.nav-a:hover, .dropdown-menu>li>.nav-a:focus, .dropdown-menu>.active>.nav-a, .dropdown-menu>.active>.nav-a:hover, .dropdown-menu>.active>.nav-a:focus, .no-touch .dashboard-page nav.dashboard-menu ul li:hover .nav-a, .dashboard-page nav.dashboard-menu ul li:active a {
 color:#fff;
 background-color:#5fa2db;
 text-decoration:none;

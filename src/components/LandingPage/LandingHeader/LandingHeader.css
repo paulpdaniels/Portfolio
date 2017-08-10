@@ -2,11 +2,6 @@
 * Header Art
 */
 
-/*.headerArt {
-  background-color: #2d3b44;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}*/
 .header-contents {
   margin-left: 15vw;
   margin-top: 5vw;
@@ -51,6 +46,10 @@ div.headerArtImg.col-md-12 {
 /*
 * button
 */
+
+.page-scroll {
+  text-decoration: none;
+}
 
 .btn {
   border: 0;

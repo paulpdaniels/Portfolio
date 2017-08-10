@@ -17,63 +17,63 @@ class App extends Component {
 
           <ul>
               <li>
-                  <a href="#">
+                  <a href="/" className="nav-a">
 
-                      <i className="fa fa-home fa-2x"></i>
+                      <i className="fa fa-home fa-2x nav-fa"></i>
                       <span className="nav-text">
-                          <Link to='/'>Home</Link>
+                          Home
                       </span>
                   </a>
 
               </li>
               <li className="has-subnav">
-                  <a href="#">
-                      <i className="fa fa-gamepad fa-2x"></i>
+                  <a href="https://dionnephualiann.github.io/game_project/" target="_blank" className="nav-a">
+                      <i className="fa fa-gamepad fa-2x nav-fa"></i>
                       <span className="nav-text">
-                          Project 1
+                          Burger Stack em' Up
                       </span>
                   </a>
 
               </li>
               <li className="has-subnav">
-                  <a href="#">
-                     <i className="fa fa-map-marker fa-2x"></i>
+                  <a href="https://project2-summon-auntie.herokuapp.com/" target="_blank" className="nav-a">
+                     <i className="fa fa-map-marker fa-2x nav-fa"></i>
                       <span className="nav-text">
-                          Project 2
+                          Report Summon Auntie
                       </span>
                   </a>
 
               </li>
               <li className="has-subnav">
-                  <a href="#">
-                     <i className="fa fa-users fa-2x"></i>
+                  <a href="#" className="nav-a">
+                     <i className="fa fa-users fa-2x nav-fa"></i>
                       <span className="nav-text">
-                          Project 3
+                          Mentor Match
                       </span>
                   </a>
 
               </li>
               <li>
-                  <a href="#">
-                      <i className="fa fa-hand-paper-o fa-2x" aria-hidden="true"></i>
+                  <a href="https://expressive-86f54.firebaseapp.com/" target="_blank" className="nav-a">
+                      <i className="fa fa-hand-paper-o fa-2x nav-fa" aria-hidden="true"></i>
                       <span className="nav-text">
-                          Project 4
+                          Expressive
                       </span>
                   </a>
               </li>
               <li>
-                  <a href="#">
-                      <i className="fa fa-grav fa-2x" aria-hidden="true"></i>
+                  <a href="https://dionnephualiann.carbonmade.com/" target="_blank" className="nav-a">
+                      <i className="fa fa-grav fa-2x nav-fa" aria-hidden="true"></i>
                       <span className="nav-text">
                           Art Portfolio
                       </span>
                   </a>
               </li>
               <li>
-                  <a href="#">
-                      <i className="fa fa-envelope fa-2x"></i>
+                  <a href="#" className="nav-a">
+                      <i className="fa fa-envelope fa-2x nav-fa"></i>
                       <span className="nav-text">
-                          <Link to='/contact'>Contact me</Link>
+                          Contact me
                       </span>
                   </a>
               </li>
