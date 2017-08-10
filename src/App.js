@@ -71,11 +71,15 @@ class App extends Component {
               </li>
               <li>
                   <a href="#" className="nav-a">
+                  <Link to="/contact">
                       <i className="fa fa-envelope fa-2x nav-fa"></i>
+
                       <span className="nav-text">
                           Contact me
                       </span>
+                      </Link>
                   </a>
+
               </li>
             </ul>
       </nav>
