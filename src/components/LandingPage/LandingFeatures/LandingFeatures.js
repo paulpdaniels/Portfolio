@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import {Col, Row} from 'react-bootstrap';
+import {Col, Row, Grid} from 'react-bootstrap';
 
 import './LandingFeatures.css';
 
 class LandingFeatures extends Component {
   render() {
     return (
-      <div>
+      <Grid>
       {/* Project Links */}
       <section className="c-hero-flex">
           <a href="https://dionnephualiann.github.io/game_project/" target="_blank" className="c-hero-flex__item">
@@ -17,7 +17,7 @@ class LandingFeatures extends Component {
             <h2 className="c-hero-flex__title">Report Summon Auntie</h2>
 
           </a>
-          <a className="c-hero-flex__item">
+          <a href="https://ancient-everglades-11615.herokuapp.com/" target="_blank" className="c-hero-flex__item">
             <h2 className="c-hero-flex__title">Mentor Match</h2>
           </a>
           <a href="https://expressive-86f54.firebaseapp.com/" target="_blank" className="c-hero-flex__item">
@@ -34,7 +34,7 @@ class LandingFeatures extends Component {
           </div>
 
 
-          <Col lg={3} md={3} className="text-center">
+          <Col lg={3} md={3} sm={12} xs={12} className="text-center">
             <a href="https://dionnephualiann.github.io/game_project/" target="_blank" className="project-description-link">
               <div className="project-description-box">
                 <i className="fa fa-4x fa-gamepad text-primary"></i>
@@ -46,7 +46,7 @@ class LandingFeatures extends Component {
             </a>
           </Col>
 
-          <Col lg={3} md={3} className="text-center">
+          <Col lg={3} md={3} sm={12} xs={12} className="text-center">
             <a href="https://project2-summon-auntie.herokuapp.com/" target="_blank" className="project-description-link">
               <div className="project-description-box">
                 <i className="fa fa-4x fa-map-marker text-primary"></i>
@@ -58,8 +58,8 @@ class LandingFeatures extends Component {
             </a>
           </Col>
 
-          <Col lg={3} md={3} className="text-center">
-            <a href="#" target="_blank" className="project-description-link">
+          <Col lg={3} md={3} sm={12} xs={12} className="text-center">
+            <a href="https://ancient-everglades-11615.herokuapp.com/" target="_blank" className="project-description-link">
               <div className="project-description-box">
                 <i className="fa fa-4x fa-users text-primary"></i>
                 <h3 className="project-description-title">Mentor Match</h3>
@@ -70,7 +70,7 @@ class LandingFeatures extends Component {
             </a>
           </Col>
 
-          <Col lg={3} md={3} className="text-center">
+          <Col lg={3} md={3} sm={12} xs={12} className="text-center">
             <a href="https://expressive-86f54.firebaseapp.com/" target="_blank" className="project-description-link">
               <div className="project-description-box">
                 <i className="fa fa-4x fa-hand-paper-o text-primary"></i>
@@ -82,7 +82,7 @@ class LandingFeatures extends Component {
             </a>
           </Col>
 
-          <Col lg={3} md={3} className="text-center">
+          <Col lg={3} md={3} sm={12} xs={12} className="text-center">
             <a href="https://dionnephualiann.carbonmade.com/" target="_blank" className="project-description-link">
               <div className="project-description-box">
                 <i className="fa fa-4x fa-grav text-primary"></i>
@@ -95,7 +95,7 @@ class LandingFeatures extends Component {
           </Col>
 
         </Row>
-      </div>
+      </Grid>
 
 
     );

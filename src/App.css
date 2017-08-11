@@ -41,8 +41,13 @@ height: 40px;
 text-align: center;
 vertical-align: middle;
 font-size:20px;
+text-decoration: none;
 }
 
+.nav-a-Link {
+  text-decoration: none;
+  color: #999;
+}
 
 .main-menu:hover,nav.main-menu.expanded {
 width:250px;
@@ -104,6 +109,7 @@ transition:all .1s linear;
 }
 
 .main-menu .nav-icon {
+text-decoration:none;
 position:relative;
 display:table-cell;
 width:60px;
@@ -114,6 +120,7 @@ font-size:18px;
 }
 
 .main-menu .nav-text {
+text-decoration:none;
 position:relative;
 display:table-cell;
 vertical-align:middle;
@@ -137,9 +144,14 @@ text-decoration:none;
 
 .nav-a {
   color: #999;
+  text-decoration:none;
 }
 
 .nav-a:hover {
+  color: #fff;
+}
+
+.nav-a-Link:hover {
   color: #fff;
 }
 

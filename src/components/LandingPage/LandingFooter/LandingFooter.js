@@ -21,13 +21,13 @@ class LandingFooter extends Component {
               </ul>
           </div>
           {/* Download Resume */}
-          <div className="Resume">
+          {/* <div className="Resume">
             <form method="get" action="../images/Resume_2017.pdf" target="_blank">
               <button className="btn btn-primary btn-xl download-resume" type="submit">
               Download Resume! <i className="fa fa-file-pdf-o fa-2x icoResume"></i>
               </button>
             </form>
-          </div>
+          </div> */}
           {/* Copyright */}
           <div className="copyrights pull-left">©Dionne Phua. All rights Reserved.</div>
         </div>

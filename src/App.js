@@ -45,7 +45,7 @@ class App extends Component {
 
               </li>
               <li className="has-subnav">
-                  <a href="#" className="nav-a">
+                  <a href="https://ancient-everglades-11615.herokuapp.com/" target="_blank" className="nav-a">
                      <i className="fa fa-users fa-2x nav-fa"></i>
                       <span className="nav-text">
                           Mentor Match
@@ -70,8 +70,8 @@ class App extends Component {
                   </a>
               </li>
               <li>
-                  <a href="#" className="nav-a">
-                  <Link to="/contact">
+                  <a className="nav-a">
+                  <Link to="/contact" className="nav-a-Link">
                       <i className="fa fa-envelope fa-2x nav-fa"></i>
 
                       <span className="nav-text">
