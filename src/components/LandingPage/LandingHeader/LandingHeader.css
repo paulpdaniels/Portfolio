@@ -28,7 +28,7 @@
 
 
 div.headerArtImg.col-md-12 {
-  background: url("/images/portrait.png");
+  background: url("https://user-images.githubusercontent.com/22927048/29243238-da90686a-7fcc-11e7-9c26-2e3a3ce0e33c.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-x: 50%;
@@ -42,6 +42,72 @@ div.headerArtImg.col-md-12 {
   padding-bottom: 10px;
   box-shadow: 10px 10px 5px #888888;
 }
+
+/* Media Queries */
+/* lg */
+@media (min-width: 1200px){
+  .header-title {
+    font-size: 45px;
+  }
+
+
+}
+/* md */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .header-title {
+    font-size: 45px;
+  }
+
+
+}
+
+/* sm */
+@media (min-width: 760px) and (max-width: 992px){
+  .header-title {
+    font-size: 35px;
+    width: 25vw;
+    height: 10vw;
+    margin-left: 0px;
+    border-bottom: 3px solid #ff6200;
+  }
+    .subheader-text  {
+      font-size: 10px;
+    }
+    #page-scroll {
+      font-size: 0.8em;
+      height: 3vw;
+    }
+    /*#page-scroll {
+      border-color: rgba(255, 255, 255, 0);
+      background-color:rgba(255, 255, 255, 0);
+      color:rgba(255, 255, 255, 0);
+}*/
+}
+/* xs */
+@media (max-width: 760px) {
+  .header-title {
+    font-size: 20px;
+    width: 18vw;
+    height: 12vw;
+    margin-left: 20px;
+    border-bottom: 3px solid #ff6200;
+  }
+
+  .subheader-text  {
+    color: rgba(255,255,255,0);
+    width: 5vw;
+  }
+  #page-scroll {
+    border-color: rgba(255, 255, 255, 0);
+    background-color:rgba(255, 255, 255, 0);
+    color:rgba(255, 255, 255, 0);
+  }
+}
+
+
+
+
+
 
 /*
 * button
