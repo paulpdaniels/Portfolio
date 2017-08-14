@@ -26,6 +26,7 @@ class ContactPage extends Component {
 					       <input className="input__field input__field--update"
                         type="text"
                         id="form-displayName"
+                        name="email"
                         />
   					     <label className="input__label input__label--update" htmlFor="form-displayName">
   						<span className="input__label-content input__label-content--update">Your Email</span>

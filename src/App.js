@@ -134,6 +134,13 @@ class App extends Component {
              </li>
 
              <li className="menu__body-element">
+               <a className="menu__body-link" href="https://dionnephualiann.carbonmade.com/" target="_blank">
+                 Art Portfolio
+               </a>
+               {/* /.menu__body-link */}
+             </li>
+
+             <li className="menu__body-element">
               <Link to="/contact" className="nav-a-Link">
                <a className="menu__body-link">
                  Contact Me
