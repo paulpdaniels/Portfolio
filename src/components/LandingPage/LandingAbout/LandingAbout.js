@@ -11,7 +11,7 @@ class LandingAbout extends Component {
       <div className="about-section" id="about">
 
          <h1 className="about-title">About Me</h1>
-           <p className="about-text">Hi! I am Dionne. I graduated from Ringling College of Art and Design with a B.F.A in Computer Animation. I lived and worked in San Francisco Bay Area for almost 7 years working as a generalist artist in the mobile game industry. Upon leaving the United States, I picked up a web developement along the way in Singapore at General Assembly in greater hopes to pursue my dreams in working on Augmented reality and virtual reality projects. I am one-of-a-kind that can offer to companies and teams I work with, a combination of both technical and creative perspective and skill set to the table. Feel free to check out my projects and professional profile.</p>
+           <p className="about-text">Hi! I am Dionne. I graduated from Ringling College of Art and Design with a B.F.A in Computer Animation. I lived and worked in San Francisco Bay Area for almost 7 years working as a generalist artist in the mobile game industry. I am actively pursuing my dream of becoming an Art Director, and looking to join a team that shares my passion for visual storytelling and bringing those stories to both old and new media. I bring a combination of hard-fought industry experience, technical skills, and creative perspectives along with me. Check out a sampling of my projects and professional profile below.</p>
 
       </div>
 
