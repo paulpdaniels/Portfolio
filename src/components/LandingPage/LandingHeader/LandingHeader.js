@@ -12,7 +12,7 @@ class LandingHeader extends Component {
            <Col md={12} className="headerArtImg">
            <Col md={4} className="header-contents pull-left">
              <div className="header-title">Dionne Phua</div>
-             <p className="subheader-text">UI/UX Designer | Concept Artist</p>
+             <p className="subheader-text">Creative Lead | Designer | Concept Artist</p>
              <a href="#about" className="btn btn-primary btn-xl page-scroll" id="page-scroll">
              Find Out More!</a>
            </Col>

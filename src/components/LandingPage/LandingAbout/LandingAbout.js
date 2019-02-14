@@ -1,23 +1,44 @@
-import React, { Component } from 'react';
-import {Grid, Col, Row} from 'react-bootstrap';
+import React, {Component} from 'react';
+import {Grid} from 'react-bootstrap';
 
 import './LandingAbout.css';
 
 class LandingAbout extends Component {
-  render() {
-    return (
-      <Grid fluid className="st-scroll">
+	render() {
+		return (
+			<Grid fluid className="st-scroll">
 
-      <div className="about-section" id="about">
+				<div className="about-section" id="about">
 
-         <h1 className="about-title">About Me</h1>
-           <p className="about-text">Hi! I am Dionne. I graduated from Ringling College of Art and Design with a B.F.A in Computer Animation. I lived and worked in San Francisco Bay Area for almost 7 years working as a generalist artist in the mobile game industry. I am actively pursuing my dream of becoming an Art Director, and looking to join a team that shares my passion for visual storytelling and engaging users on both existing and emerging media. I bring a combination of hard-fought industry experience, technical skills, and creative perspectives along with me. Check out a sampling of my projects and professional profile below.</p>
+					<h1 className="about-title">About Me</h1>
+					<p className="about-text">
+						My name is Dionne Phua. I help people tell visual stories and I want to help tell yours too.
+						I am graduate of the Ringling College of Art and Design with over 10 years of experience
+						in both the gaming and tech consulting industry. I've been fortunate enough to work both in the US and
+						Singapore and to have picked up skills along the way.
+						I have worked as a concept artist, a designer, a business consultant and a marketer.
+					</p>
 
-      </div>
+					<p>
+						On the side I am a passionate hobbyist who seeks out travel, adventure, adrenaline and wonder.
+					</p>
 
-      </Grid>
-    );
-  }
+
+				</div>
+				{/*<ReactPlayer*/}
+				{/*url="https://firebasestorage.googleapis.com/v0/b/fir-test-4e593.appspot.com/o/videos%2FCaasimolarEvo_VFX.mov?alt=media&token=32f102b0-4e92-483e-a361-33e23a67761c"*/}
+				{/*playing*/}
+				{/*loop={true}*/}
+				{/*/>*/}
+				{/*<ReactPlayer*/}
+				{/*url="https://firebasestorage.googleapis.com/v0/b/fir-test-4e593.appspot.com/o/videos%2FRig_Sample.mov?alt=media&token=7925a754-148c-465d-8162-209afd292686"*/}
+				{/*playing*/}
+				{/*loop={true}*/}
+				{/*/>*/}
+
+			</Grid>
+		);
+	}
 }
 
 export default LandingAbout;

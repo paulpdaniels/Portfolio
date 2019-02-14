@@ -7,12 +7,10 @@ import ContactPage from './components/ContactPage/ContactPage';
 
 const Main = () => (
   // switch is a component from react-router
-
   <Switch>
-    <Route path = '/contact' component = {ContactPage}></Route>
-    <Route path = '/' component = {LandingPage}></Route>
+    <Route path='/contact' component={ContactPage} />
+    <Route path='/' component={LandingPage} />
   </Switch>
-
-)
+);
 
 export default Main;
