@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Image, Jumbotron, Panel, Row} from "react-bootstrap";
+import {Grid, Image, Row} from "react-bootstrap";
 
 class GalleryPage extends Component {
 	constructor(props) {
@@ -8,18 +8,10 @@ class GalleryPage extends Component {
 
 	render() {
 		return (
-			<Grid>
-				<Row>
-					<Panel>
-						<Image src="https://carbonmade-media.accelerator.net/25919657;960x621.webp" fluid/>
-					</Panel>
-				</Row>
-				<Row>
-					<Panel>
-						<Image src="https://carbonmade-media.accelerator.net/25919657;960x621.webp" fluid/>
-					</Panel>
-				</Row>
-			</Grid>
+			<div>
+				<Image src="https://carbonmade-media.accelerator.net/25919657;960x621.webp"/>
+				<Image src="https://carbonmade-media.accelerator.net/25919657;960x621.webp"/>
+			</div>
 		);
 	}
 

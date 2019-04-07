@@ -4,16 +4,16 @@
 */
 
 .g-hero-flex {
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 30vh;
-    width: 100vw;
+    /*align-items: center;*/
+    height: 80px;
+    width: 70vw;
 }
 @media (max-width: 960px) {
     .g-hero-flex {
-        flex-flow: column nowrap;
+        flex-flow: column wrap-reverse;
     }
     .g-hero-flex__item {
         width: 80%;
@@ -39,45 +39,6 @@
     flex-grow: 2;
     box-shadow: inset 0 0 0 100vmax rgba(175, 0, 100, 0.7);
 }
-/* Burger Tower Image */
-.g-hero-flex__item:nth-child(1) {
-    background: #222 url("https://user-images.githubusercontent.com/22927048/29243237-da8e2c6c-7fcc-11e7-9881-a1487baa870a.png") no-repeat;
-    background-size: 100%;
-    background-position-y: 10%;
-    text-decoration: none;
-}
-/* Summon Auntie Image */
-.g-hero-flex__item:nth-child(2) {
-    background: #222 url("https://user-images.githubusercontent.com/22927048/29243240-da92fabc-7fcc-11e7-881e-e9a9b3e478c8.png") no-repeat;
-    background-size: 120%;
-    background-position-y: 10%;
-    background-position-x: 40%;
-    text-decoration: none;
-}
-/* Mentor Match Image */
-.g-hero-flex__item:nth-child(3) {
-    background: #222 url("https://user-images.githubusercontent.com/22927048/29243236-da8d8f6e-7fcc-11e7-922a-165deb14d59b.png") no-repeat;
-    background-size: 100%;
-    background-position-y: 50%;
-    background-position-x: 50%;
-    text-decoration: none;
-}
-/* Expressive Image */
-.g-hero-flex__item:nth-child(4) {
-    background: #222 url("https://user-images.githubusercontent.com/22927048/29243235-da8ac73e-7fcc-11e7-8579-70c13ce0aab3.png") no-repeat;
-    background-size: 200%;
-    background-position-y: 20%;
-    background-position-x: 50%;
-    text-decoration: none;
-}
-/* Sloth Image */
-.g-hero-flex__item:nth-child(5) {
-    background: #222 url("https://user-images.githubusercontent.com/22927048/29243239-da92905e-7fcc-11e7-96fa-956ac8bcc7a8.png") no-repeat;
-    background-size: 120%;
-    background-position-y: 20%;
-    background-position-x: 40%;
-    text-decoration: none;
-}
 
 .g-hero-flex__title {
     font-family: "Raleway", sans-serif;
@@ -89,4 +50,10 @@
     transition: .2s all;
     display: inline-block;
     width: 40%;
+    opacity: 0;
+    text-align: center;
+}
+
+.g-hero-flex__item:hover .g-hero-flex__title {
+    opacity: 1;
 }

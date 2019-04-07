@@ -6,12 +6,15 @@ import ContactPage from './components/ContactPage/ContactPage';
 import GalleryPage from "./components/GalleryPage/GalleryPage";
 
 
-const Main = () => (
+const Main = (p) => (
   // switch is a component from react-router
   <Switch>
     <Route path='/contact' component={ContactPage} />
-    <Route path='/gallery' component={GalleryPage} />
-    <Route path='/' component={LandingPage} />
+    <Route path='/project/:id' component={GalleryPage} />
+    <Route
+			path='/'
+			render={(props) => <LandingPage {...props} {...p} />}
+			/>
   </Switch>
 );
 

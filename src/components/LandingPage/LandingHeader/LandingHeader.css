@@ -21,26 +21,11 @@
   font-weight: 300;
   font-size: 45px;
   letter-spacing: .15em;
-  text-align: center;
+  text-align: left;
   /*text-shadow: 4px 2px 4px #393939;*/
   border-bottom: 3px solid #ff6200;
-}
-
-
-div.headerArtImg.col-md-12 {
-  background: url("https://user-images.githubusercontent.com/22927048/29243238-da90686a-7fcc-11e7-9c26-2e3a3ce0e33c.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-x: 50%;
-  background-position-y: 30%;
-  /*display: flex;
-  justify-content: center;*/
-  height: 50vw;
-  /*top: 1vw;*/
-  margin-top: 5px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  box-shadow: 10px 10px 5px #888888;
+  max-width: 185px;
+  margin-bottom: 52px;
 }
 
 /* Media Queries */
