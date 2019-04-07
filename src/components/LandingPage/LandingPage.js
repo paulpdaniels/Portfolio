@@ -5,6 +5,7 @@ import LandingHeader from './LandingHeader/LandingHeader';
 import LandingFeatures from './LandingFeatures/LandingFeatures';
 import LandingAbout from './LandingAbout/LandingAbout';
 import LandingFooter from './LandingFooter/LandingFooter';
+import LandingGallery from "./LandingGallery/LandingGallery";
 
 class LandingPage extends Component {
   constructor(props) {
@@ -20,8 +21,11 @@ class LandingPage extends Component {
         <Row className="LAbout">
           <LandingAbout />
         </Row>
-        <Row className="LFeatures">
-          <LandingFeatures />
+        {/*<Row className="LFeatures">*/}
+        {/*  <LandingFeatures />*/}
+        {/*</Row>*/}
+        <Row className="LGallery">
+          <LandingGallery />
         </Row>
         <Row className="LFooter">
           <LandingFooter />

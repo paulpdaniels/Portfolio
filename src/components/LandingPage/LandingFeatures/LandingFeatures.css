@@ -41,7 +41,7 @@
 }
 /* Burger Tower Image */
 .c-hero-flex__item:nth-child(1) {
-  background: #222 url("(https://user-images.githubusercontent.com/22927048/29243237-da8e2c6c-7fcc-11e7-9881-a1487baa870a.png") no-repeat;
+  background: #222 url("https://user-images.githubusercontent.com/22927048/29243237-da8e2c6c-7fcc-11e7-9881-a1487baa870a.png") no-repeat;
   background-size: 100%;
   background-position-y: 10%;
   text-decoration: none;

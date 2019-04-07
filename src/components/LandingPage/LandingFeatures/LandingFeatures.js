@@ -9,21 +9,21 @@ class LandingFeatures extends Component {
       <Grid>
       {/* Project Links */}
       <section className="c-hero-flex">
-          <a href="https://dionnephualiann.github.io/game_project/" target="_blank" className="c-hero-flex__item">
+          <a href="https://dionnephualiann.github.io/game_project/" target="_blank" rel="noopener noreferrer"  className="c-hero-flex__item">
             <h2 className="c-hero-flex__title">Burger Stack em' Up</h2>
 
           </a>
-          <a href="https://project2-summon-auntie.herokuapp.com/" target="_blank" className="c-hero-flex__item">
+          <a href="https://project2-summon-auntie.herokuapp.com/" target="_blank" rel="noopener noreferrer"  className="c-hero-flex__item">
             <h2 className="c-hero-flex__title">Report Summon Auntie</h2>
 
           </a>
-          <a href="https://ancient-everglades-11615.herokuapp.com/" target="_blank" className="c-hero-flex__item">
+          <a href="https://ancient-everglades-11615.herokuapp.com/" target="_blank" rel="noopener noreferrer"  className="c-hero-flex__item">
             <h2 className="c-hero-flex__title">Mentor Match</h2>
           </a>
-          <a href="https://expressive-86f54.firebaseapp.com/" target="_blank" className="c-hero-flex__item">
+          <a href="https://expressive-86f54.firebaseapp.com/" target="_blank" rel="noopener noreferrer"  className="c-hero-flex__item">
             <h2 className="c-hero-flex__title">Expressive- Real-Time Q&A app.</h2>
           </a>
-          <a href="https://dionnephualiann.carbonmade.com/" target="_blank" className="c-hero-flex__item">
+          <a href="https://dionnephualiann.carbonmade.com/" target="_blank" rel="noopener noreferrer"  className="c-hero-flex__item">
             <h2 className="c-hero-flex__title">Art Portfolio</h2>
           </a>
         </section>
@@ -35,7 +35,7 @@ class LandingFeatures extends Component {
 
 
           <Col lg={3} md={3} sm={12} xs={12} className="text-center">
-            <a href="https://dionnephualiann.github.io/game_project/" target="_blank" className="project-description-link">
+            <a href="https://dionnephualiann.github.io/game_project/" target="_blank" rel="noopener noreferrer" className="project-description-link">
               <div className="project-description-box">
                 <i className="fa fa-4x fa-gamepad text-primary"></i>
                 <h3 className="project-description-title">Burger Stack em' Up</h3>
@@ -47,7 +47,7 @@ class LandingFeatures extends Component {
           </Col>
 
           <Col lg={3} md={3} sm={12} xs={12} className="text-center">
-            <a href="https://project2-summon-auntie.herokuapp.com/" target="_blank" className="project-description-link">
+            <a href="https://project2-summon-auntie.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-description-link">
               <div className="project-description-box">
                 <i className="fa fa-4x fa-map-marker text-primary"></i>
                 <h3 className="project-description-title">Report Summon Auntie</h3>
@@ -71,7 +71,7 @@ class LandingFeatures extends Component {
           </Col>
 
           <Col lg={3} md={3} sm={12} xs={12} className="text-center">
-            <a href="https://expressive-86f54.firebaseapp.com/" target="_blank" className="project-description-link">
+            <a href="https://expressive-86f54.firebaseapp.com/" target="_blank" rel="noopener noreferrer" className="project-description-link">
               <div className="project-description-box">
                 <i className="fa fa-4x fa-hand-paper-o text-primary"></i>
                 <h3 className="project-description-title">Expressive</h3>
@@ -83,7 +83,7 @@ class LandingFeatures extends Component {
           </Col>
 
           <Col lg={3} md={3} sm={12} xs={12} className="text-center">
-            <a href="https://dionnephualiann.carbonmade.com/" target="_blank" className="project-description-link">
+            <a href="https://dionnephualiann.carbonmade.com/" target="_blank" rel="noopener noreferrer" className="project-description-link">
               <div className="project-description-box">
                 <i className="fa fa-4x fa-grav text-primary"></i>
                 <h3 className="project-description-title">Art Portfolio</h3>
