@@ -1023,6 +1023,10 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
+bootstrap@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.4.1.tgz#c3a347d419e289ad11f4033e3c4132b87c081d72"
+
 boxen@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-0.6.0.tgz#8364d4248ac34ff0ef1b2f2bf49a6c60ce0d81b6"
@@ -5089,6 +5093,10 @@ react-fontawesome@^1.6.1:
   resolved "https://registry.yarnpkg.com/react-fontawesome/-/react-fontawesome-1.6.1.tgz#eddce17e7dc731aa09fd4a186688a61793a16c5c"
   dependencies:
     prop-types "^15.5.6"
+
+react-lazyload@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/react-lazyload/-/react-lazyload-2.5.0.tgz#7ed20bf0408dc684c10e808060e51d904cc0ab8d"
 
 react-overlays@^0.7.0:
   version "0.7.0"

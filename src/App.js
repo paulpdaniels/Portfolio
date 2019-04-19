@@ -1,15 +1,12 @@
 import React, {Component} from 'react';
-import {Grid, Navbar, Nav, NavItem, Row} from 'react-bootstrap';
 
-import {HashRouter, Link} from 'react-router-dom';
 import Main from './Routes';
 
-import './App.css';
-import Col from "react-bootstrap/es/Col";
+import LandingNav from "./components/LandingPage/LandingNav/LandingNav";
 
 class App extends Component {
 
-	constructor (props) {
+	constructor(props) {
 		super(props)
 
 		this.state = {
@@ -43,29 +40,27 @@ class App extends Component {
 
 	render() {
 		return (
-			<div className="App">
-				<div className="App-header">
-					<Grid className="no-margin">
-						<Col xs={2}>
-								<Nav className="flex-column" style={{position: 'fixed'}}>
-									<div className="header-title">Dionne Phua</div>
-									<NavItem href='/'>Home</NavItem>
-									{
-										this.state.sections.map(({title}, key) => (
-											<NavItem key={key}>{title}</NavItem>
-										))
-									}
-								</Nav>
-						</Col>
-						<Col xs={10}>
-							<Main sections={this.state.sections}>
-							</Main>
-						</Col>
-					</Grid>
+			<div className="wrapper">
+				<div className="sidebar">
+					<div className="scrollable setup overflowing">
+						<div className="rail">
+							<div className="handle" style={{height: 218.715, top: 83}}/>
+						</div>
+						<div className="content" style={{paddingBottom: '36px'}}>
+							<header className="bigLogo">
+								<a href="/">
 
+									<h1>Dionne Phua</h1>
+									<h2 className="tagline hide"/>
+								</a>
+							</header>
+							<LandingNav/>
+						</div>
+					</div>
 				</div>
+				<Main sections={this.state.sections}>
+				</Main>
 			</div>
-
 		);
 	}
 }

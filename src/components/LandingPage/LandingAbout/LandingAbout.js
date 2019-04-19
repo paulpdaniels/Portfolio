@@ -1,42 +1,71 @@
 import React, {Component} from 'react';
-import {Grid} from 'react-bootstrap';
 
-import './LandingAbout.css';
+// import './LandingAbout.css';
 
 class LandingAbout extends Component {
 	render() {
 		return (
-			<Grid fluid className="st-scroll">
+			<div className="about">
 
-				<div className="about-section" id="about">
+				<div className="block info">
 
-					<h1 className="about-title">About Me</h1>
-					<p className="about-text">
-						My name is Dionne Phua. I help people tell visual stories and I want to help tell yours too.
-						I am graduate of the Ringling College of Art and Design with over 10 years of experience
-						in both the gaming and tech consulting industry. I've been fortunate enough to work both in the US and
-						Singapore and to have picked up skills along the way.
-						I have worked as a concept artist, a designer, a business consultant and a marketer.
-					</p>
+					<a className="resumeLink part" href="https://carbonmade-media.accelerator.net/32967135?download=resume.pdf"
+						 data-name="resume" rel="nofollow">Download Resume</a>
 
-					<p>
-						On the side I am a passionate hobbyist who seeks out travel, adventure, adrenaline and wonder.
-					</p>
 
+					<div className="row part" data-name="name">
+						<h5>Full name</h5>
+						<p>Dionne Phua</p>
+					</div>
+
+
+					<div className="row part" data-name="title">
+						<h5>Title</h5>
+						<p>Artist ( Generalist)</p>
+					</div>
+
+
+					<div className="row part" data-name="location">
+						<h5>Location</h5>
+						<p>San Francisco Bay Area</p>
+					</div>
+
+
+					<div className="row part" data-name="blurb">
+						<h5>Blurb</h5>
+						<p>Jack-of-all-trades</p>
+					</div>
 
 				</div>
-				{/*<ReactPlayer*/}
-				{/*url="https://firebasestorage.googleapis.com/v0/b/fir-test-4e593.appspot.com/o/videos%2FCaasimolarEvo_VFX.mov?alt=media&token=32f102b0-4e92-483e-a361-33e23a67761c"*/}
-				{/*playing*/}
-				{/*loop={true}*/}
-				{/*/>*/}
-				{/*<ReactPlayer*/}
-				{/*url="https://firebasestorage.googleapis.com/v0/b/fir-test-4e593.appspot.com/o/videos%2FRig_Sample.mov?alt=media&token=7925a754-148c-465d-8162-209afd292686"*/}
-				{/*playing*/}
-				{/*loop={true}*/}
-				{/*/>*/}
 
-			</Grid>
+
+				<div className="block part" data-name="education">
+					<div className="row">
+						<h5>Education</h5>
+
+						<div className="experienceBlock">
+							<h2>Bachelors of Fine Arts</h2>
+
+							<h2>Ringling College of Art and Design</h2>
+
+
+							<div className="meta">
+								<p>Sarasota, FL <span>&middot;</span> 2007 &ndash; 2010 </p>
+							</div>
+
+
+							<p>Computer Animation Major</p>
+
+
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+
 		);
 	}
 }

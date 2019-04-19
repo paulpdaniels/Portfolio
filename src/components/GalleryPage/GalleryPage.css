@@ -1,0 +1,75 @@
+carbon-image {display:block; position:relative;}
+carbon-image > img {position:absolute; top:0; left:0; width:100%; height:100%;}
+carbon-shield {display:block; position:absolute; top:0; left:0; width:100%; height:100%;}
+
+.image:before {
+    display: block;
+    padding-top: 100%;
+    content: '';
+}
+
+#image_32820771:after {
+    display: block;
+    padding-top: 54.479%;
+    content: '';
+}
+
+#image_32820782:before {
+    display: block;
+    padding-top: 100%;
+    content: '';
+}
+
+#image_32820782:after {
+    display: block;
+    padding-top: 64.688%;
+    content: '';
+}
+
+#image_20274155:before {
+    display: block;
+    padding-top: 100%;
+    content: '';
+}
+
+#image_20274155:after {
+    display: block;
+    padding-top: 81.771%;
+    content: '';
+}
+
+#image_18131906:after {
+    display: block;
+    padding-top: 64.688%;
+    content: '';
+}
+
+#image_25919611:after {
+    display: block;
+    padding-top: 64.688%;
+    content: '';
+}
+
+#image_16797187:after {
+    display: block;
+    padding-top: 64.688%;
+    content: '';
+}
+
+#image_16798598:after {
+    display: block;
+    padding-top: 64.688%;
+    content: '';
+}
+
+#image_25919613:after {
+    display: block;
+    padding-top: 64.688%;
+    content: '';
+}
+
+#image_25919610:after {
+    display: block;
+    padding-top: 64.688%;
+    content: '';
+}

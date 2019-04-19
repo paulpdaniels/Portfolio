@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Grid, Col, Row, FormGroup, ControlLabel, FormControl, Button} from 'react-bootstrap';
+import {Grid, Col, FormGroup, FormControl, Button} from 'react-bootstrap';
 
 import './ContactPage.css';
 
@@ -13,12 +13,6 @@ class ContactPage extends Component {
             <p className="subheader-text-contact">Web Developer | Concept Artist</p>
           </Col>
         </Col>
-
-        {/* <form method="POST" action="http://formspree.io/li.ann86@gmail.com">
-           <input type="email" name="email" placeholder="Your email" className="email-field"/>
-           <textarea name="message" placeholder="Your message" defaultValue={""} className="text-field" />
-           <button type="submit">Send</button>
-        </form> */}
 
         <form method="POST" action="http://formspree.io/li.ann86@gmail.com" className="email">
         <Col md={12} className="email-form">
